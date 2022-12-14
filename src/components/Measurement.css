@@ -1,0 +1,135 @@
+.container-Measurement {
+    padding: 45px 63px;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
+
+.container-Measurement h1 {
+    color: #00FF00;
+    padding: 0 39%;
+}
+
+.container-Measurement p {
+    font-size: 10px;
+}
+
+.Images-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    text-align: start;
+    align-items: center;
+    display: flex;
+}
+
+.container-Measurement img {
+    width: 50px;
+    height: 133px;
+}
+
+.text h4 {
+    width: 149px;
+    margin: 0px 23px;
+}
+
+.Images-text1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 252px 0 0px;
+}
+
+.Images-text1 img {
+    width: 70px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .container-Measurement {
+        padding: 20px 0px;
+        text-align: center;
+        background-color: #000000;
+        color: #fff;
+    }
+
+    .container-Measurement h1 {
+        font-size: 24px;
+        color: #00FF00;
+        padding: 0 18%;
+    }
+
+    .container-Measurement p {
+        font-size: 10px;
+    }
+
+    .Images-text {
+        display: block;
+        justify-content: space-around;
+    }
+
+    .text {
+        text-align: start;
+        align-items: center;
+        display: flex;
+    }
+
+    .text img {
+        width: 50px;
+        height: 80px;
+    }
+
+    .text h4 {
+        font-size: 13px;
+        width: 149px;
+        margin: 0px 3px;
+    }
+
+    .text1 {
+        text-align: start;
+        align-items: center;
+        display: flex;
+    }
+
+    .text1 h4 {
+        font-size: 13px;
+        width: 149px;
+        margin: 0px 15px;
+    }
+
+    /* .Images-text1 {
+        display: block;
+        justify-content: space-around;
+        margin: 0 5px 0 87px;
+    } */
+    .Images-text1 {
+        display: block;
+        padding: 0 80px;
+        justify-content: -around;
+    }
+
+    .Images-text1 img {
+        margin: 0 0px 0 -4px;
+        width: 60px;
+        height: 80px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+    .Images-text {
+        display: flex;
+    }
+
+    .container-Measurement h1 {
+        color: #00FF00;
+        padding: 0 28%;
+    }
+    text1 {
+        display: flex;
+        align-items: center;
+    }
+    .text h4 {
+        width: 149px;
+        margin: 0px 13px;
+    }
+}
