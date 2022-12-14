@@ -58,7 +58,8 @@ img{
         padding: 0 80px;
         justify-content: -around;
     }
-    .text { text-align: start;
+    .text { 
+        text-align: start;
         align-items: center;
         display: flex;
         margin: 0 7px;
